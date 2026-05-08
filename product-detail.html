@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>레몬구름 말랑이 | Mallangi World</title>
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mallangi-shop">
+
+        <!-- Header -->
+        <header class="header">
+            <div class="header__container">
+                <h1 class="header__logo">
+                    <a href="index.html" class="header__logo-link">MALANG WORLD</a>
+                </h1>
+
+                <div class="header__utility">
+                    <a href="cart.html" class="header__btn header__btn--cart" aria-label="장바구니">
+                        <span class="header__btn-icon">🛒</span>
+                        <span class="header__btn-text">장바구니</span>
+                    </a>
+
+                    <a href="mypage.html" class="header__btn header__btn--mypage" aria-label="마이페이지">
+                        <span class="header__btn-icon">👤</span>
+                        <span class="header__btn-text">마이페이지</span>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Navigation -->
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">HOME</a></li>
+                <li class="nav__item"><a href="index.html" class="nav__link">NEW</a></li>
+                <li class="nav__item"><a href="index.html" class="nav__link">BEST</a></li>
+                <li class="nav__item"><a href="index.html" class="nav__link">말랑이</a></li>
+                <li class="nav__item"><a href="index.html" class="nav__link">슬랑이</a></li>
+                <li class="nav__item"><a href="index.html" class="nav__link">스퀴시</a></li>
+                <li class="nav__item"><a href="index.html" class="nav__link">고객지원</a></li>
+            </ul>
+        </nav>
+
+        <main class="product-detail">
+
+            <!-- 1. 상단 상품 영역 -->
+            <section class="product-detail__top">
+                <div class="product-detail__container product-detail__grid">
+
+                    <!-- 왼쪽: 상품 이미지 -->
+                    <div class="product-detail__image-box">
+                        <img src="images/lemoncloud.png" alt="레몬구름 말랑이" class="product-detail__image">
+                    </div>
+
+                    <!-- 오른쪽: 상품 정보 -->
+                    <div class="product-detail__info">
+                        <p class="product-detail__category">MALLANGI</p>
+                        <h2 class="product-detail__name">레몬구름 말랑이</h2>
+                        <p class="product-detail__price">12,000원</p>
+
+                        <div class="product-detail__desc">
+                            폭신폭신한 레몬빛 구름을 닮은 귀여운 말랑이예요.  
+                            책상 위에 올려두기만 해도 기분이 말랑해져요.
+                        </div>
+
+                        <div class="product-detail__quantity">
+                            <span class="product-detail__quantity-label">주문수량</span>
+
+                            <div class="product-detail__quantity-box">
+                                <button class="product-detail__quantity-btn">-</button>
+                                <span class="product-detail__quantity-number">1</span>
+                                <button class="product-detail__quantity-btn">+</button>
+                            </div>
+                        </div>
+
+                        <div class="product-detail__total">
+                            <span>총 상품금액</span>
+                            <strong>12,000원</strong>
+                        </div>
+
+                        <div class="product-detail__buttons">
+                            <button class="product-detail__btn product-detail__btn--cart">
+                                장바구니
+                            </button>
+
+                            <button class="product-detail__btn product-detail__btn--buy">
+                                바로구매
+                            </button>
+
+                            <button class="product-detail__btn product-detail__btn--wish">
+                                ♡ 찜
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- 2. 상품설명 영역 -->
+            <section class="product-detail__section">
+                <div class="product-detail__container">
+                    <h3 class="product-detail__section-title">상품 설명</h3>
+
+                    <div class="product-detail__description-image-box">
+                        <img src="images/lemoncloud.png" alt="레몬구름 말랑이 상품 설명 이미지" class="product-detail__description-image">
+                    </div>
+                </div>
+            </section>
+
+            <!-- 3. 상품 후기 영역 -->
+            <section class="product-detail__section">
+                <div class="product-detail__container">
+                    <h3 class="product-detail__section-title">상품 후기</h3>
+
+                    <div class="product-detail__empty-review">
+                        <p class="product-detail__empty-icon">💬</p>
+                        <p class="product-detail__empty-title">아직 작성된 후기가 없어요.</p>
+                        <p class="product-detail__empty-desc">첫 번째 후기를 남겨보세요!</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 4. 추천 상품 -->
+            <section class="product-detail__section product-detail__section--recommend">
+                <div class="product-detail__container">
+                    <h3 class="product-detail__section-title">추천 상품</h3>
+
+                    <div class="product-detail__recommend-grid">
+
+                        <article class="product-card">
+                            <div class="product-card__img-box">
+                                <img src="images/sodapop.png" alt="소다팝 슬랑이" class="product-card__img">
+                            </div>
+                            <div class="product-card__info">
+                                <h3 class="product-card__name">소다팝 슬랑이</h3>
+                                <p class="product-card__price">15,000원</p>
+                                <button class="product-card__btn">장바구니 담기</button>
+                            </div>
+                        </article>
+
+                        <article class="product-card">
+                            <div class="product-card__img-box">
+                                <img src="images/berry.png" alt="베리베리 스퀴시" class="product-card__img">
+                            </div>
+                            <div class="product-card__info">
+                                <h3 class="product-card__name">베리베리 스퀴시</h3>
+                                <p class="product-card__price">9,900원</p>
+                                <button class="product-card__btn">장바구니 담기</button>
+                            </div>
+                        </article>
+
+                        <article class="product-card">
+                            <div class="product-card__img-box">
+                                <img src="images/cheesecat.png" alt="치즈냥이 말랑이" class="product-card__img">
+                            </div>
+                            <div class="product-card__info">
+                                <h3 class="product-card__name">치즈냥이 말랑이</h3>
+                                <p class="product-card__price">13,500원</p>
+                                <button class="product-card__btn">장바구니 담기</button>
+                            </div>
+                        </article>
+
+                        <article class="product-card">
+                            <div class="product-card__img-box">
+                                <img src="images/bear.png" alt="곰돌이 스퀴시" class="product-card__img">
+                            </div>
+                            <div class="product-card__info">
+                                <h3 class="product-card__name">곰돌이 스퀴시</h3>
+                                <p class="product-card__price">9,500원</p>
+                                <button class="product-card__btn">장바구니 담기</button>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- 5. Footer -->
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__info">
+                    <p class="footer__text">상호명: 말랑월드 | 대표자: 말랑이 | 사업자번호: 123-45-67890</p>
+                    <p class="footer__text">주소: 경기도 말랑시 귀염동 123-4 | 고객센터: 1588-말랑말랑</p>
+                    <p class="footer__copyright">&copy; 2024 MALANG WORLD. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>마이페이지 | Mallangi World</title>
+
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="mallangi-shop">
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header__container">
+
+            <h1 class="header__logo">
+                <a href="index.html" class="header__logo-link">
+                    MALANG WORLD
+                </a>
+            </h1>
+
+            <div class="header__utility">
+
+                <a href="cart.html" class="header__btn">
+                    <span class="header__btn-icon">🛒</span>
+                    <span class="header__btn-text">장바구니</span>
+                </a>
+
+                <a href="mypage.html" class="header__btn">
+                    <span class="header__btn-icon">👤</span>
+                    <span class="header__btn-text">마이페이지</span>
+                </a>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__item"><a href="index.html" class="nav__link">HOME</a></li>
+            <li class="nav__item"><a href="index.html" class="nav__link">NEW</a></li>
+            <li class="nav__item"><a href="index.html" class="nav__link">BEST</a></li>
+            <li class="nav__item"><a href="index.html" class="nav__link">말랑이</a></li>
+            <li class="nav__item"><a href="index.html" class="nav__link">슬랑이</a></li>
+            <li class="nav__item"><a href="index.html" class="nav__link">스퀴시</a></li>
+            <li class="nav__item"><a href="index.html" class="nav__link">고객지원</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main -->
+    <main class="mypage">
+    <div class="mypage__container">
+
+        <!-- 내 프로필 -->
+        <section class="mypage-profile">
+            <div class="mypage-profile__card">
+                <div class="mypage-profile__avatar">😊</div>
+
+                <div class="mypage-profile__info">
+                    <h2 class="mypage-profile__name">말랑 고객님</h2>
+                    <p class="mypage-profile__email">mallang@example.com</p>
+                    <div class="mypage-profile__grade">VIP 회원</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 주문 / 배송내역 배너 -->
+        <section class="mypage-wide-card">
+            <a href="#" class="mypage-wide-card__link">
+                <div>
+                    <h3 class="mypage-wide-card__title">📦 주문 / 배송내역</h3>
+                    <p class="mypage-wide-card__desc">
+                        내가 주문한 상품의 배송 상태를 확인할 수 있어요.
+                    </p>
+                </div>
+
+                <span class="mypage-wide-card__arrow">›</span>
+            </a>
+        </section>
+
+        <!-- 리뷰 작성 배너 -->
+        <section class="mypage-wide-card">
+            <a href="#" class="mypage-wide-card__link">
+                <div>
+                    <h3 class="mypage-wide-card__title">✍ 리뷰 작성</h3>
+                    <p class="mypage-wide-card__desc">
+                        구매한 상품의 후기를 작성해보세요.
+                    </p>
+                </div>
+
+                <span class="mypage-wide-card__arrow">›</span>
+            </a>
+        </section>
+
+        <!-- 찜한 상품 / 최근 본 상품 -->
+        <section class="mypage-bottom-grid">
+
+            <!-- 찜한 상품 -->
+            <div class="mypage-box">
+                <h3 class="mypage-box__title">💖 찜한 상품</h3>
+
+                <div class="mypage-product-list">
+                    <div class="mypage-product">
+                        <img src="images/cheesecat.png" alt="치즈냥이 말랑이" class="mypage-product__img">
+                        <p class="mypage-product__name">치즈냥이 말랑이</p>
+                    </div>
+
+                    <div class="mypage-product">
+                        <img src="images/bear.png" alt="곰돌이 스퀴시" class="mypage-product__img">
+                        <p class="mypage-product__name">곰돌이 스퀴시</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 최근 본 상품 -->
+            <div class="mypage-box">
+                <h3 class="mypage-box__title">👀 최근 본 상품</h3>
+
+                <div class="mypage-product-list">
+                    <div class="mypage-product">
+                        <img src="images/lemoncloud.png" alt="레몬구름 말랑이" class="mypage-product__img">
+                        <p class="mypage-product__name">레몬구름 말랑이</p>
+                    </div>
+
+                    <div class="mypage-product">
+                        <img src="images/grape.png" alt="포도송이 슬랑이" class="mypage-product__img">
+                        <p class="mypage-product__name">포도송이 슬랑이</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </div>
+</main>
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="footer__container">
+
+            <div class="footer__info">
+
+                <p class="footer__text">
+                    상호명: 말랑월드 | 대표자: 말랑이
+                </p>
+
+                <p class="footer__copyright">
+                    © 2024 MALANG WORLD
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+</div>
+
+</body>
+</html>
